@@ -1,4 +1,9 @@
 {
+    "scripts": {
+        "tests": [
+            "phpunit tests"
+        ]
+    },
     "require": {
         "symfony/console": "~4.0.6"
     },

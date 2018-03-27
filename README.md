@@ -1,5 +1,5 @@
 ### Zadání
-Napiště "univerzální" program, který přečte libovolně dlouhý textový soubor.
+Napište "univerzální" program, který přečte libovolně dlouhý textový soubor.
 Řádek po řádku bude aplikovat uživatelské filtry a dekorátory. Výstupem programu
 bude počet stejných (upravených) řádků a jejich četností.
 
@@ -15,9 +15,20 @@ Upravte program tak, aby vypisoval průběžný stav nekonečného streamu.
 ### Řešení
 Bude zveřejněno během workshopu ve středu 28.3.2018. Přijďte :-)
 
-### Příklad
+### Příklady
 ```bash
 php old.php example.log
+```
+
+```bash
+cd .docker
+docker-compose run --rm php composer install
+docker-compose run --rm php php bin/console.php process-file example.log
+```
+
+#### Testy
+```bash
+docker-compose run --rm php composer tests
 ```
 
 #### Vstupní soubor
