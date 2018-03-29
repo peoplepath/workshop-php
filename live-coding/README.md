@@ -1,7 +1,7 @@
 This is simple script for demonstration of PHP5/7 capabilities. It suppose to
 process `certstream` binary output.
 
-== Execution
+## Execution
 You need at least PHP 7.1
 
 Run it with demo file
