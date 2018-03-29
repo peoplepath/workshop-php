@@ -35,6 +35,9 @@ Použijte co nejvíce vlastností moderního PHP. Doporučení:
 #### Bonus
 Upravte program tak, aby vypisoval průběžný stav nekonečného streamu.
 
+### Řešení
+Bude zveřejněno během workshopu ve středu 28.3.2018. Přijďte :-)
+
 ### Příklad
 ```bash
 php old.php example.log
