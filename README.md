@@ -5,6 +5,7 @@ Literature and other sources for PHP developers
  - https://www.w3schools.com/php/default.asp (good for beginners)
  - https://php7explained.com/ (best source of informations about PHP 7.x)
  - https://martinfowler.com/ (not about PHP but good reading for any developer)
+ - https://github.com/paragonie/awesome-appsec (it's not only about PHP but also about applicaton security)
  - https://github.com/ziadoz/awesome-php
 - in Czech
  - https://php.vrana.cz/kniha-1001-tipu-a-triku-pro-php.php
