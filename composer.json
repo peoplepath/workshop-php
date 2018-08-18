@@ -1,5 +1,19 @@
 {
+    "scripts": {
+        "tests": [
+            "phpunit tests"
+        ]
+    },
+    "require": {
+        "symfony/console": "~4.0.6"
+    },
     "require-dev": {
-        "monolog/monolog": "^1.23"
+        "monolog/monolog": "^1.23",
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZdenekZahor\\IntraWorldsFileProcessor\\": "src/"
+        }
     }
 }
